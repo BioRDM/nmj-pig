@@ -1,8 +1,8 @@
-TITLE
+## TITLE
 Confocal micrographs and complete dataset of neuromuscular junction morphology of 
 pelvic limb muscles of the pig (Sus scrofa)
 
-CONTRIBUTORS
+## CONTRIBUTORS
 Ines Boehm (1,2), Chandra Logie (3), Alyssa Gibbs (1,2), Olivia Murray (1,2), 
 Rizwan Farrukh (1,2), Christopher Proudfoot (3), Richard Clutton (3), Ross A. 
 Jones (1,2), Thomas H. Gillingwater (1,2)
@@ -16,8 +16,8 @@ This documentation file was generated on 2021-06-22 by Ines Boehm
 (https://orcid.org/0000-0002-9343-0944)
 
 ------------------------------------
-CONTEXTUAL INFORMATION
-Dataset description
+## CONTEXTUAL INFORMATION
+# Dataset description
 This dataset entails the complete NMJ dataset for three pigs and the three 
 muscles analysed for the publication "Comparative anatomy of the mammalian 
 neuromuscular junction" (https://doi.org/10.1111/joa.13260). This includes 
@@ -30,15 +30,15 @@ microscope images (.nd2), thresholded and cleaned images of pre- and post-synaps
 (.tif) for the muscle soleus since the "aNMJ-morph" macro saves this intermediate 
 image for measurement of endplate variables.
 
-PURPOSE
+## PURPOSE
 This dataset has been generated to evaluate the comparative anatomy of the 
 neuromuscular junction between mammalian species.
 
-KEYWORDS
+## KEYWORDS
 neuromuscular junction, pig, porcine, sus scrofa, NMJ-morph, aNMJ-morph, morphology,
 extensor digitorum longus, peroneus longus, soleus
 
-DATA REUSE
+## DATA REUSE
 This dataset is of interest for (a) beginners wanting to familiarise themselves 
 with NMJ-morph (https://doi.org/10.1016/j.celrep.2017.11.008) or aNMJ-morph 
 (https://doi.org/10.1098/rsos.200128) as the raw data provides the opportunity 
@@ -49,8 +49,8 @@ external control data of the healthy porcine/pig neuromuscular junction; (d)
 researchers developing machine learning algorithms for analysis of NMJ-analysis 
 who are looking for training datasets.
 
-GENERAL INFORMATION
-Biological Context
+## GENERAL INFORMATION
+# Biological Context
 The neuromuscular junction (NMJ) — a synapse formed between lower motor neurons 
 and skeletal muscle fibre — represents a major focus of both basic neuroscience 
 research and clinical neuroscience research. 
@@ -77,7 +77,7 @@ to that found in humans. Taken together, we present a series of comprehensive
 baseline morphometric data for the mammalian NMJ and suggest that ovine models 
 are likely to best represent the human NMJ in health and disease.
 
-METHODOLOGICAL INFORMATION
+## METHODOLOGICAL INFORMATION
 (Detailed protocol as per publication Boehm et al., 2020, https://doi.org/10.1111/joa.13260) 
 No animals were sacrificed specifically for this project: tissue was sampled 
 from animals in existing studies (after experimental endpoints had been reached) 
@@ -93,7 +93,7 @@ paraformaldehyde (PFA) for 3–4 hr. Muscle samples were then washed with
 1× phosphate-buffered saline (PBS) and microdissected into small bundles of 
 10–15 individual fibres. All remaining fat and connective tissue were removed to 
 reduce potential background staining. NMJs were immunolabelled to visualize 
-pre-synaptic nerve terminal proteins (SV2 and 2H3) and post-synaptic acetylcholine 
+pre-synaptic nerve terminal proteins (SV2 and 2H3) and post-synaptic acetylcholine
 receptors (AChRs). Muscle samples were mounted on glass slides in Mowiol and kept 
 in dark storage to prevent photobleaching.
 NMJ images were acquired on a Nikon A1R FLIM confocal system via a Nikon Eclipse 
@@ -109,14 +109,14 @@ approach to quantify 21 individual morphological vari- ables in each NMJ
 measurements (e.g. muscle fibre diameter). Image analysis on soleus was performed 
 using the standardized "aNMJ-morph" macro (Minty et al., 2020, https://doi.org/10.1098/rsos.200128).
 
-Description of methods used for collection/generation of data: 
+# Description of methods used for collection/generation of data: 
 - tissue dissection
 - immunofluorescent visualisation of AChRs and pre-synaptic terminal and motor axon
 - confocal microscopy
 - NMJ-morph (https://datashare.ed.ac.uk/handle/10283/2113)
 - aNMJ-morph (https://datashare.ed.ac.uk/handle/10283/3421)
 
-DATASET FOLDER/FILE OVERVIEW
+## DATASET FOLDER/FILE OVERVIEW
 The Methods folder entails general methods used for tissue dissection and 
 immunofluorescent visualisation and imaging of NMJs, and NMJ-morph and aNMJ-morph 
 workflows.
@@ -129,15 +129,15 @@ The naming convention follows: "Species Animal# Muscle TRITC-BTX SV22H3" e.g.
 "Pig 1 EDL TRITC-BTX SV22H3 ".
 Most microscope files include a space after the naming system, only Pig 2 does not.
 
-1. Datasets List
-   A. Pig 1.zip - this .zip file contains the data of pig 1 NMJs
-   B. Pig 2.zip - this .zip file contains the data of pig 2 NMJs
-   C. Pig 3.zip - this .zip file contains the data of pig 3 NMJs
-   D. Methods.zip - this .zip file contains .txt files of methods used
-   E. readme_file.txt
-   F. license_text.txt
+# 1. Datasets List
+   * Pig 1.zip - this .zip file contains the data of pig 1 NMJs
+   * Pig 2.zip - this .zip file contains the data of pig 2 NMJs
+   * Pig 3.zip - this .zip file contains the data of pig 3 NMJs
+   * Methods.zip - this .zip file contains .txt files of methods used
+   * readme_file.txt
+   * license_text.txt
 
-2. Relationship between folders/files:
+# 2. Relationship between folders/files:
 Spreadsheets of morphometric data and muscle fibre diameter (MFD) data for each 
 muscle are contained within each Pig (1, 2 and 3) folder. 
 Raw images (.nd2) are contained within folders corresponding to each individual 
@@ -146,13 +146,13 @@ Each folder of raw images contains a folder "cleaned_images" with images (.tif)
 of thresholded and cleaned axon terminals = C1 = channel 1 and muscle endplate = 
 C2 = channel 2. 
 Soleus was analysed with aNMJ-morph so these files have the prefix 
-axon_terminal and muscle_endplate. The soleus cleaned_images folder also containes 
+axon_terminal and muscle_endplate. The soleus cleaned_images folder also containes
 images with the prefix muscle_intermediate_endplate which were used to measure 
 endplate morphology.
 PL and S across all three Pig folders also contain maximum intensity projection 
 versions (.tif) of the raw microscope images (.nd2), those carry the prefix "MAX_".
 
-3. Formats
+# 3. Formats
 .csv (spreadsheets of muscle fibre diameters and of NMJ morphometric variables 
 within Pig 1-3 folders)
 .nd2 (raw microscopy file in the raw_images folder)
@@ -162,6 +162,6 @@ Z-stacks, in the maximum_intensity_projections folder)
 
 .nd2 files can be opened with Fiji (https://imagej.net/software/fiji/).
 
-OTHER 
+## OTHER 
 Please do not hesitate to get in touch if there are any questions regarding 
 this dataset: iboehm[at]exseed.ed.ac.uk

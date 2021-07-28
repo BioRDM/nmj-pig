@@ -1,0 +1,35 @@
+IMMUNOFLUORESCENT VISUALISATION OF THE NEUROMUSCULAR JUNCTION
+Gillingwater Lab – Ines Boehm, June 2021
+
+Prepare Solutions
+- Permeabilisation Buffer: 4% Triton-X in 1xPBS
+- Blocking Buffer: 4% BSA (Bovine Serum Albumine) 2% Triton-X in 1xPBS
+- (for a species when using antibodies raised in same species e.g. mouse with mouse antibodies) Triton-X free Blocking Buffer: 4% BSA in 1x PBS
+- 0.1 M Glycine pH 10.4 (quenches autofluorescence and helps with background signal)
+- Storage of tissue: 0.01% Sodium Azide (long term storage, prevent bacterial growth)
+
+Antibodies
+- TRITC-aBTX – Tetramethylrhodamin alpha-Bungarotoxin (cat no: BTIU00012, VWR International Ltd.)
+- 1°: mouse monoclonal SV2 and 2H3 (1:50; DSHB)
+- 2°: AlexaFluor-488-conjugated donkey anti-mouse H+L IgG antibody (1:400, A21202, Life Technologies)
+
+Sample preparation
+Tissue fixed in 4% Paraformaldehyde (PFA) for 1-4h depending on size of dissected muscle
+
+- Fine dissection of fibre bundle (10-15 fibres per bundle) & cleaning removal of connective tissue & fat (connective tissue & fat contributes a lot to background signal)
+- All incubation steps to be undertaken on a rocker to allow better permeabilisation and penetration of antibodies.
+- Glycine (0.1 M pH 10.4) for 15 min to reduce tissue auto-fluorescence
+- 15' 1xPBS wash
+- 15’ 1:500 TRITC-aBTX in 1xPBS
+- Trim fibres to endplate bands using an upright fluorescent microscope (if fibres are too long, this allows for quicker finding of NMJs at large magnification during confocal microscopy)
+- 1 ½ h in permeabilisation buffer
+- ½ h in blocking buffer
+- 1° antibodies: 1:50 anti-ms SV2/2H3 in blocking buffer O/N @ 4°C ( ~18h) 
+- 4x20’ 1xPBS wash
+- 2° antibodies: 1:400 dk α-ms Alexa-488 in 1xPBS 2h @ RT or O/N @ 4°C
+- 4x20’ 1xPBS wash
+- Mount in Mowiol on slides under a microscope, using forceps to spread out fibres and ensuring fibres do not overlay each other (Make sure to NOT introduce bubbles! These can be popped using forceps)
+- Store slides at -20° for long storage and when not imaged instantly, avoid multiple freeze-thaw cycles if slides are not imaged immediately
+
+Analysis with NMJ-morph
+- https://datashare.is.ed.ac.uk/handle/10283/2113 - Jones et al NMJ-morph reveals principal components of synaptic morphology influencing structure–function relationships at the neuromuscular junction Open Biol 2016 http://doi.org/10.1098/rsob.160240 

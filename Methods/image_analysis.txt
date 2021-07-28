@@ -1,0 +1,17 @@
+IMAGE ANALYSIS
+NMJ images were acquired on a Nikon A1R FLIM confocal system via a Nikon Eclipse 
+Ti inverted microscope with a Nikon Apochromat 60x/1.4NA oil immersion objective 
+(Nikon Instruments Europe BV, Netherlands), with a pinhole at 1.2 Airy units. 
+16-bit pixel, 512x512 frame size, 1-4x optical zoom and 0.5-1 µm Z-stack intervals. 
+On average a total of 40 en face NMJs were imaged per muscle, where possible, to 
+allow for analysis of at least 30-40 NMJs per muscle as recommended per original 
+"NMJ-morph guidelines" (Jones et al., 2016, https://doi.org/10.1098/rsob.160240).
+Image analysis of EDL and PL was performed using the standardized "NMJ-morph" 
+approach to quantify 21 individual morphological vari- ables in each NMJ (including 
+pre- and post-synaptic variables and associated nerve/muscle measurements (e.g. 
+muscle fibre diameter). Image analysis on soleus was performed using the standardized 
+"aNMJ-morph" macro (Minty et al., 2020, https://doi.org/10.1098/rsos.200128).
+
+DETAILS FOR NMJ-ANALYSIS
+- NMJ-morph (https://datashare.ed.ac.uk/handle/10283/2113)
+- aNMJ-morph (https://datashare.ed.ac.uk/handle/10283/3421)

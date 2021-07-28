@@ -17,7 +17,7 @@ This documentation file was generated on 2021-06-22 by Ines Boehm
 
 ------------------------------------
 ## CONTEXTUAL INFORMATION
-# Dataset description
+### Dataset description
 This dataset entails the complete NMJ dataset for three pigs and the three 
 muscles analysed for the publication "Comparative anatomy of the mammalian 
 neuromuscular junction" (https://doi.org/10.1111/joa.13260). This includes 
@@ -30,15 +30,15 @@ microscope images (.nd2), thresholded and cleaned images of pre- and post-synaps
 (.tif) for the muscle soleus since the "aNMJ-morph" macro saves this intermediate 
 image for measurement of endplate variables.
 
-## PURPOSE
+### PURPOSE
 This dataset has been generated to evaluate the comparative anatomy of the 
 neuromuscular junction between mammalian species.
 
-## KEYWORDS
+### KEYWORDS
 neuromuscular junction, pig, porcine, sus scrofa, NMJ-morph, aNMJ-morph, morphology,
 extensor digitorum longus, peroneus longus, soleus
 
-## DATA REUSE
+### DATA REUSE
 This dataset is of interest for (a) beginners wanting to familiarise themselves 
 with NMJ-morph (https://doi.org/10.1016/j.celrep.2017.11.008) or aNMJ-morph 
 (https://doi.org/10.1098/rsos.200128) as the raw data provides the opportunity 
@@ -50,7 +50,7 @@ researchers developing machine learning algorithms for analysis of NMJ-analysis
 who are looking for training datasets.
 
 ## GENERAL INFORMATION
-# Biological Context
+### Biological Context
 The neuromuscular junction (NMJ) — a synapse formed between lower motor neurons 
 and skeletal muscle fibre — represents a major focus of both basic neuroscience 
 research and clinical neuroscience research. 
@@ -77,7 +77,7 @@ to that found in humans. Taken together, we present a series of comprehensive
 baseline morphometric data for the mammalian NMJ and suggest that ovine models 
 are likely to best represent the human NMJ in health and disease.
 
-## METHODOLOGICAL INFORMATION
+### METHODOLOGICAL INFORMATION
 (Detailed protocol as per publication Boehm et al., 2020, https://doi.org/10.1111/joa.13260) 
 No animals were sacrificed specifically for this project: tissue was sampled 
 from animals in existing studies (after experimental endpoints had been reached) 
@@ -109,7 +109,7 @@ approach to quantify 21 individual morphological vari- ables in each NMJ
 measurements (e.g. muscle fibre diameter). Image analysis on soleus was performed 
 using the standardized "aNMJ-morph" macro (Minty et al., 2020, https://doi.org/10.1098/rsos.200128).
 
-# Description of methods used for collection/generation of data: 
+### Description of methods used for collection/generation of data: 
 - tissue dissection
 - immunofluorescent visualisation of AChRs and pre-synaptic terminal and motor axon
 - confocal microscopy
@@ -129,7 +129,7 @@ The naming convention follows: "Species Animal# Muscle TRITC-BTX SV22H3" e.g.
 "Pig 1 EDL TRITC-BTX SV22H3 ".
 Most microscope files include a space after the naming system, only Pig 2 does not.
 
-# 1. Datasets List
+### 1. Datasets List
    * Pig 1.zip - this .zip file contains the data of pig 1 NMJs
    * Pig 2.zip - this .zip file contains the data of pig 2 NMJs
    * Pig 3.zip - this .zip file contains the data of pig 3 NMJs
@@ -137,7 +137,7 @@ Most microscope files include a space after the naming system, only Pig 2 does n
    * readme_file.txt
    * license_text.txt
 
-# 2. Relationship between folders/files:
+### 2. Relationship between folders/files:
 Spreadsheets of morphometric data and muscle fibre diameter (MFD) data for each 
 muscle are contained within each Pig (1, 2 and 3) folder. 
 Raw images (.nd2) are contained within folders corresponding to each individual 
@@ -152,7 +152,7 @@ endplate morphology.
 PL and S across all three Pig folders also contain maximum intensity projection 
 versions (.tif) of the raw microscope images (.nd2), those carry the prefix "MAX_".
 
-# 3. Formats
+### 3. Formats
 .csv (spreadsheets of muscle fibre diameters and of NMJ morphometric variables 
 within Pig 1-3 folders)
 .nd2 (raw microscopy file in the raw_images folder)
